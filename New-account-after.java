@@ -16,7 +16,6 @@ public class LoginPage extends JFrame implements ActionListener {
         setSize(400, 200);
         setLocationRelativeTo(null);
 
-        JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(6, 2));
 
         JLabel emailLabel = new JLabel("Email:");
