@@ -2,7 +2,7 @@ public class PMUMentor {
     private String firstName;
     private String lastName;
     private String email;
-    private String password;
+    private String Password;
 
     // Constructor
     public PMUMentor(String firstName, String lastName, String email, String password) {
@@ -46,11 +46,11 @@ public class PMUMentor {
     }
 
     public String getPassword() {
-        return password;
+        return Password;
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.password = Password;
     }
 }
 
